@@ -1,6 +1,9 @@
+/* eslint-disable */
+
 module.exports = {
   root: true,
-  extends: 'airbnb-base',
+  extends: 'airbnb-base',/* eslint-disable */
+
   env: {
     browser: true,
   },
