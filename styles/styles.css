@@ -173,7 +173,7 @@ button {
   max-width: 100%;
   margin: 12px 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
+  border-radius: 3px;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
@@ -181,7 +181,7 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
+  background-color: #00634f;
   color: var(--background-color);
   cursor: pointer;
   overflow: hidden;
