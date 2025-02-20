@@ -35,6 +35,7 @@
   box-sizing: border-box;
   height: 750px;
 }
+
 .hero a.button:any-link,
 button {
   color: #00634f;
