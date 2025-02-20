@@ -99,8 +99,23 @@ footer .footer[data-block-status="loaded"] {
 }
 
 h1,
-h2,
-h3,
+h2{
+  color: #009b77;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+  transform: translateX(0) skewX(-6deg);
+  display: block;
+  text-align: center;
+}
+h3{
+  color: rgb(44, 44, 44);
+  font-size: 26px;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  font-family: Gotham A, Gotham B, sans-serif;
+}
 h4,
 h5,
 h6 {
@@ -119,7 +134,12 @@ h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
 
-p,
+p{
+  font-family: Gotham A, Gotham B, sans-serif;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+}
 dl,
 ol,
 ul,
